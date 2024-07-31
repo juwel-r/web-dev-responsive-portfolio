@@ -1,0 +1,140 @@
+@media screen and (max-width:576px) {
+
+    
+    nav{
+        margin: 20px;
+    }
+    nav h1{
+        font-size: 22px;
+    }
+    nav a{
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+ .banner h1{
+    font-size: 35px;
+    margin: 25px auto;
+    }
+    
+/*------Why Web Development--------*/
+
+
+.top-web-dev-reason h1{font-size: 28px;}
+.top-web-dev-reason p{font-size: 14px;}
+.block1, .block2{
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 30px;
+    gap:0px;
+}
+
+.block-img{order:-1 ;}
+.block-container{gap: 20px;}
+.block-container h1{font-size: 22px;}
+.block-container p{font-size: 14px;}
+.block-container a{font-size: 17px;}
+
+
+/*---------------Inspiration-----------------------*/
+
+.inspiration-content h1{ /*Iframe ar responsive korte hobe*/
+    font-size: 28px;
+}
+.inspiration-content p{
+    font-size: 14px;
+}
+
+/*----Current Targets-----*/
+
+.current-target-container{
+    margin:50px 30px 20px 30px;
+}
+.current-target-container > h1{
+    font-size: 28px;
+}
+.current-target-container > p{
+    font-size: 14px;
+    padding: 0;
+}
+
+.current-target-content{
+    flex-direction: column;
+}
+.html{
+    padding: 30px;
+}
+.current-target-content h1{font-size: 20px;}
+
+.current-target-content p{
+    font-size: 14px;
+    margin: 8px 0 15px 0;
+}
+    
+/*-------------Next target style----------*/
+
+.next-target-container >h1{font-size: 28px;}
+.next-target-container >p{font-size: 14px;}
+.next-target-content .img-block {margin:0;}
+.next-target-content h1{font-size: 22px;}
+.next-target-content p{font-size: 14px;}
+.next-target-content .html{
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    height: auto;
+}
+
+
+/*-----------Support Section------------*/
+.support{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.support h1{font-size: 28px;}
+.support p{font-size: 14px;padding:0 30px;}
+.support form{grid-template-columns: 1fr;justify-items: center;}
+
+
+/*------ Footer styele--------*/
+footer .social{margin: 10px auto 0  auto;}
+footer .contact{font-size: 14px;}
+footer #copyright{font-size: 14px;}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 30px;
+}
+
+.footer-content .address br{display: none;}
+.footer-content .address p{
+    text-align: center;
+    font-size: 14px;
+    line-height:24px;
+ }
+ .footer-content .address i{
+    font-size: 30px;
+  }
+.social-icons{
+    order: 1;
+    margin-top: 10px;   
+}
+.footer-icon{
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 0 -5px 20px 0 rgb(119, 141, 143);
+}
+
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+.block1, .block2{
+    padding: 20px;
+    gap: 10px;
+}
+
+}
